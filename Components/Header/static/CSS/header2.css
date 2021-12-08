@@ -1,0 +1,82 @@
+@import "/Part2/CSS/variables.css";
+    *{
+        font-family: var(--font-text);
+    }
+
+
+/* הוספת רקע תמנוה לheader */
+
+/* מיקום תפריט ניווט */
+.container{
+    position: relative;
+    margin-top: 8px;
+
+}
+    header {
+        background-color: var(--backgroung-header);
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    }
+
+/* הוספת צבע רקע לתפריט ניווט */
+ .topnav {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+
+}
+
+/* עיצוב הלינקים בתפריט ניווט */
+.topnav a {
+ float: right;
+ text-align: right;
+ color: black;
+ padding: 20px 7px;
+ text-decoration: none;
+ font-size: 20px;
+
+}
+
+.avatar{
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+}
+.avatar a {
+ float: left;
+ text-align: left;
+ color: black;
+ padding: 20px 5px;
+ text-decoration: none;
+ font-size: 20px;
+}
+.avatar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* עיצוב ספציפי עבור צםריט ראשי */
+.avatar a.active {
+  background-color: var(--background-header-homeP);
+  color: white;
+}
+/* עיצוב הלינקים בתפריט ניווט בעת עמידה עם העכבת */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* עיצוב ספציפי עבור צםריט ראשי */
+.topnav a.active {
+  background-color: var(--background-header-homeP);
+  color: white;
+}
+.partb{
+    padding: 0% 50% 0% 50%;
+}
+
+

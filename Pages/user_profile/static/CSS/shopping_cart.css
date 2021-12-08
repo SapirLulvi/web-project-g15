@@ -1,0 +1,118 @@
+@import "/Components/Header/Static/CSS/header.css";
+@import "/Components/Footer/Static/CSS/footer.css";
+@import "/CSS/variables.css";
+    *{
+        font-family: var(--font-text);
+    }
+
+    .container {
+        max-width: 1200px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 15px;
+        padding-left:15px;
+    }
+
+    .shopping-cart-product{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 15px 10px;
+        border-bottom: 1.5px solid rgba(0, 0, 0, 0.05);
+        text-align:center;
+        align-items: center;
+    }
+
+    .product-image{
+     padding: 3px 3px;
+    }
+
+    .shopping-cart-product-name{
+      padding: 3px 3px;
+      font-size: 17px;
+    }
+
+    .shopping-cart-table{
+        border: 1.5px solid rgba(0, 0, 0, 0.2);
+    }
+
+    .sending{
+       padding-top:20px;
+        text-align: center;
+    }
+
+    .remarks{
+        border: 1.5px solid rgba(0, 0, 0, 0.2);
+        padding: 20px 30px;
+        text-align:right;
+        padding-top:10px;
+        padding-bottom:30px;
+        font-size:18px;
+    }
+
+    .sending-button {
+        display: inline-block;
+        font-size: 16px;
+        font-weight: bold;
+        border: 2px solid #000;
+        margin-top:30px;
+        margin-right: 29%;
+        background: #fff;
+        color: #000;
+        text-decoration: none;
+        padding: 8px 30px;
+        transition: 0.2s;
+    }
+
+    .sending-button:hover{
+        background: #000;
+        color: #fff;
+    }
+
+    .shopping-cart-page{
+        padding-bottom: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 30px;
+    }
+
+    .shopping-cart-titles{
+        padding-top:30px;
+        padding-bottom: 30px;
+        text-align:center;
+        font-size:30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .shopping-cart-product-remove {
+        border: 2px solid rgba(0, 0, 0, 0.2);
+        color: rgba(0, 0, 0, 0.2);
+        border-radius: 100px;
+        width: 30px;
+        height: 30px;
+        padding-top: 1px;
+        font-size: 20px;
+        cursor: pointer;
+        background:none;
+        margin-right: auto;
+        margin-left: 25px;
+        transition: 0.15s;
+    }
+
+    .shopping-cart-product-remove:hover{
+        background: #000;
+        color: #fff;
+    }
+
+
+    .shopping-cart-product-price{
+        text-decoration: underline;
+        font-size: 17px;
+
+    }
+
+    p{
+    font-size: 15px;
+    }
+
+

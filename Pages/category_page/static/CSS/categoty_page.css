@@ -1,0 +1,60 @@
+@import "/Components/Header/Static/CSS/header.css";
+@import "/Components/Footer/Static/CSS/footer.css";
+@import "/CSS/variables.css";
+    *{
+        font-family: var(--font-text);
+    }
+
+.category-title{
+    padding-top:50px;
+    font-weight: normal;
+    font-size: 33px;
+    margin:0;
+    text-align: center;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-column-gap: 40px;
+    grid-row-gap: 75px;
+    padding-top: 50px;
+    padding-bottom:50px;
+}
+
+.product{
+    text-align:center;
+}
+
+.product-name {
+    font-size:15px;
+    margin-top:10px;
+}
+.product-price {
+    font-size:15px;
+    margin-top:5px;
+    text-decoration: underline;
+}
+.product-button {
+    display: inline-block;
+    margin-top:10px;
+    background: #fff;
+    color: #000;
+    text-decoration: none;
+    padding: 6px 23px;
+    transition: 0.2s;
+    font-weight: bold;
+    border: 2px solid #000;
+}
+.product-button:hover{
+    background: #000;
+    color :#ffffff;
+}
+
+.container {
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left:15px;
+}

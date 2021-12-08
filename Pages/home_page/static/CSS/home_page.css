@@ -1,0 +1,136 @@
+
+@import "/Components/Header/static/CSS/header.css";
+@import "/Components/Footer/static/CSS/footer.css";
+@import "/CSS/variables.css";
+    *{
+        font-family: var(--font-text);
+    }
+
+section, .product{
+    text-align:center;
+}
+
+.home-page-photos{
+    border: 1px solid black;
+    transition: 1s;
+}
+
+.categories-p{
+    text-align: center;
+    font-size: 33px;
+    margin-top: 60px ;
+}
+
+.categories-div {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.categories-buttons {
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    width: 200px;
+    padding: 6px 23px;
+    transition: 0.2s;
+    font-weight: bold;
+    border: 2px solid #000;
+}
+
+.categories-buttons:hover {
+    background: #ffffff;
+    color: #000;
+}
+
+.products {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 40px;
+    grid-row-gap: 75px;
+    padding-top: 10px;
+    padding-bottom:50px;
+    margin: auto;
+}
+
+.product-image {
+   /* border: 1px solid #000;*/
+    height: 200px;
+    width: 200px;
+}
+
+.product-name {
+    font-size:18px;
+    margin-top:10px;
+}
+
+.product-price {
+    font-size:18px;
+    margin-top:5px;
+}
+
+.product-button {
+    display: inline-block;
+    margin-top:10px;
+    background: #ffffff;
+    color: #000;
+    text-decoration: none;
+    padding: 6px 23px;
+    transition: 0.2s;
+    font-weight: bold;
+    border: 2px solid #000;
+}
+
+.product-button:hover {
+
+    background: #000;
+    color: #fff;
+}
+
+.container {
+        max-width: 1200px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 15px;
+        padding-left:15px;
+    }
+
+ .photos-gallery{
+    width: 100%;
+    height: 500px;
+    background-image: url("/Pages/home_page/Static/Images/3.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+.shop-now{
+    position: absolute;
+    margin-top: 18% ;
+    width: 300px;
+    padding: 15px;
+    left: 560px;
+    top: 300px;
+    color: #dd9c94;
+    border: 3px solid #dd9c94;
+    font-size: 30.5px ;
+    transition: 0.5s;
+    background-color: white;
+    opacity: 0.9;
+}
+
+.shop-now:hover{
+    cursor: pointer;
+    color: #dd9c94 ;
+    font-size: 31px ;
+    border: 3px solid #dd9c94;
+    background-color: white;
+    opacity: 1;
+
+
+}
+
+
