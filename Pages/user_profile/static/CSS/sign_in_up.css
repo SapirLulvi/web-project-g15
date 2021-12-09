@@ -43,8 +43,8 @@
       display: inline-block;
         margin-top:10px;
         margin-right: 50px;
-        background: #fff;
-        color: #000;
+        background: var(--color_background_buttons);
+        color: var(--color_text_buttons);
         text-decoration: none;
         padding: 6px 40px;
         transition: 0.2s;
@@ -56,15 +56,11 @@
 
 
     .button:hover {
-        background: #000;
-        color: #ffffff;
+        background: var(--color_text_buttons);
+        color: var(--color_background_buttons);
 
     }
 
-    .sign-page{
-        padding-top: 80px;
-        padding-bottom: 275px;
-    }
 
     #signUp{
         color: black;

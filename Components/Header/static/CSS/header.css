@@ -36,21 +36,16 @@
         font-size: 20px;
         font-weight: bold;
     }
-    .top-line-right {
-        float: right;
-        margin: 10px;
-        padding-right: 10px;
-        transition: 0.2s;
+
+        .top-line-center {
+        display: inline-block;
+        margin: 3px;
+        padding-right: 10%;
     }
 
-    .top-line-left:hover, .top-line-right:hover,.navline:hover {
+    .top-line-left:hover,.navline:hover {
         color: var(--color_hover);
     }
-    .top-line-center {
-        display: inline-block;
-        margin: 3px;
-        padding-right: 10%;
-    }
 
     .navline {
         margin: 30px;
@@ -58,66 +53,7 @@
         transition: 0.2s;
     }
 
-
-
-
-/*
-@import "/Part2/CSS/variables.css";
-    *{
-        font-family: var(--font-text);
+    .logo_img{
+        height: 73px;
+        width: 200px;
     }
-    header {
-        background: #F0E9E6;
-        position: sticky;
-        top: 0;
-        z-index: 1;
-        text-align: center;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-    }
-
-    nav {
-        background: #F0E9E6;
-        font-size: 17px;
-        width: 100%;
-        margin-top:10px;
-        padding-top: 10px;
-        border-top: 1px solid rgba(0, 0, 0, 0.05);
-    }
-
-    header a, nav a {
-        color: black;
-        text-decoration: none;
-    }
-
-    .top-line-left {
-        float: left;
-        margin: 10px;
-        padding-left: 10px;
-        transition: 0.2s;
-        font-size: 20px;
-    }
-    .top-line-right {
-        float: right;
-        margin: 10px;
-        padding-right: 10px;
-        transition: 0.2s;
-    }
-
-    .top-line-left:hover, .top-line-right:hover, .navline:hover,.heart:hover {
-        color: #848484;
-    }
-    .top-line-center {
-        display: inline-block;
-        margin: 3px;
-        padding-right: 10%;
-    }
-
-    .navline {
-        margin: 30px;
-        padding: 5px;
-        transition: 0.2s;
-    }
-
- */
