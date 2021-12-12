@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <title>Product Page</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
     <link rel="icon" href="../../../Images/icon.png">
-    <link rel="stylesheet" href="../static/CSS/product_page.css">
+    <link rel="stylesheet" href="../static/CSS/sign_in_up.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src="../static/JS/sign_in_up.js"></script>
 </head>
-
 <body dir="rtl">
     <header>
         <a href="../../../Pages/user_page/templates/shopping_cart.html" class="top-line-left"><i class="fas fa-shopping-bag"></i></a>
@@ -29,19 +28,20 @@
         </nav>
     </header>
 
-        <div class="container">
-        <section class="product-page">
-            <div>
-                <h1 class="product-title">קשת פרחים לראש</h1>
-                <p class="product-content">קשת לראש מעוצבת פרחים קטנים בגווני לבן-ורוד-סגול-תכלת</p>
-                <p class="product-price">139 ש"ח</p>
-                <a href="#" class="product-button">הוספה לסל הקניות</a>
-            </div>
-            <div class="img-box">
-                <img class="product-photo" src="../../category_page/static/Images/head_imgs/zer2.jpg" alt="product_img">
-            </div>
+    <div class="container">
+        <section class="sign-page">
+            <h2>שלום "שם המשתמש"</h2><br>
+            <form action="/todo" method="post">
+            <label for="Email" >עדכון אימייל:</label>
+            <input type="email" id="Email" name="Email" required/>
+            <p id="note1"></p>
+            <label for="password">עדכון סיסמה:</label>
+            <input type="password" id="Password" name="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="חייב להכיל לפחות ספרה אחת ואות גדולה וקטנה אחת, ולפחות 8 תווים או יותר" required/><br>
+            <p id="note2"></p>
+            <button type="submit" class="button" onclick="checkValidMail('Email','note1'), checkValidPass('Password','note2')">עדכנ/י</button><br><br>
+            </form>
         </section>
-        </div>
+    </div>
 
     <footer class="general-footer">
         <div class="general-footer-container">
@@ -62,6 +62,5 @@
             </ul>
         </div>
     </footer>
-
-    </body>
+</body>
 </html>

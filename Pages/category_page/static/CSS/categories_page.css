@@ -1,6 +1,6 @@
-@import "/Components/Header/Static/CSS/header.css";
-@import "/Components/Footer/Static/CSS/footer.css";
-@import "/CSS/variables.css";
+@import "../../../../Components/Header/static/CSS/header.css";
+@import "../../../../Components/Footer/static/CSS/footer.css";
+@import "../../../../CSS/variables.css";
     *{
         font-family: var(--font-text);
     }
@@ -51,6 +51,7 @@ p{
     margin-left: auto;
     padding-right: 15px;
     padding-left:15px;
+    padding-bottom: 50px;
 }
 
 .category-image {

@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Category Page</title>
-    <base href="/web-project-g15/">
-    <link rel="icon" href="Images\icon.png">
-    <link rel="stylesheet" href="Pages\category_page\static\CSS\categoty_page.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../../../Images/icon.png">
+    <link rel="stylesheet" href="../static/CSS/category_page.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
@@ -14,18 +14,18 @@
 
 <body dir="rtl">
     <header>
-        <a href="Pages\user_profile\templates\shopping_cart.html" class="top-line-left"><i class="fas fa-shopping-bag"></i></a>
-        <a id="logIn" href="Pages\user_profile\templates\sign_in.html" class="top-line-left">התחברות</a>
-        <a href="Pages\home_page\templates\home_page.html" class="top-line-center"><img src="Components\Header\static\Images\logo.png" alt="Logo" height="73" width="200"></a>
+        <a href="../../../Pages/user_page/templates/shopping_cart.html" class="top-line-left"><i class="fas fa-shopping-bag"></i></a>
+        <a id="logIn" href="../../../Pages/user_page/templates/sign_in.html" class="top-line-left">התחברות</a>
+        <a href="../../../Pages/home_page/templates/home_page.html" class="top-line-center"><img class="logo_img" src="../../../Components/Header/static/Images/logo.png" alt="Logo"></a>
+        <a href="../../../Pages/user_page/templates/profile_page.html" class="top-line-right"><i class="far fa-user"></i></a>
         <nav>
-            <a href="Pages\home_page\templates\home_page.html" class="navline">דף הבית</a>
-            <a href="Pages\about_page\templates\about_page.html" class="navline">אודות</a>
-            <a href="Pages\category_page\templates\category_page.html" class="navline">זרים</a>
-            <a href="Pages\category_page\templates\category_page.html" class="navline">זרים לראש</a>
-            <a href="Pages\category_page\templates\category_page.html" class="navline">זרי כלה</a>
-            <a href="Pages\category_page\templates\category_page.html" class="navline">קופסאות פרחים</a>
-            <a href="Pages\workshop_page\templates\workshop_page.html" class="navline">סדנאות</a>
-
+            <a href="../../../Pages/home_page/templates/home_page.html" class="navline">דף הבית</a>
+            <a href="../../../Pages/about_page/templates/about_page.html" class="navline">אודות</a>
+            <a href="../../../Pages/category_page/templates/category_page.html" class="navline">זרים</a>
+            <a href="../../../Pages/category_page/templates/category_page.html" class="navline">זרים לראש</a>
+            <a href="../../../Pages/category_page/templates/category_page.html" class="navline">זרי כלה</a>
+            <a href="../../../Pages/category_page/templates/category_page.html" class="navline">קופסאות פרחים</a>
+            <a href="../../../Pages/workshop_page/templates/workshop_page.html" class="navline">סדנאות</a>
         </nav>
     </header>
 
@@ -36,52 +36,52 @@
         <div class="products">
 
             <div class="product">
-                <img src="Pages\category_page\static\Images\head_imgs\zer1.jpg" class="product-image">
+                <img src="../static/Images/head_imgs/zer1.jpg" class="product-image" alt="head_bouquet_img">
                 <div class="product-name">זר לראש כותנה</div>
                 <div class="product-price">150 ש״ח</div>
-                <a href="Pages\product_page\templates\product_page.html" class="product-button">לצפייה במוצר</a>
+                <a href="../../product_page/templates/product_page.html" class="product-button">לצפייה במוצר</a>
             </div>
             <div class="product">
-                <img src="Pages\category_page\static\Images\head_imgs\zer2.jpg" class="product-image">
+                <img src="../static/Images/head_imgs/zer2.jpg" class="product-image" alt="head_bouquet_img">
                 <div class="product-name">קשת פרחים לראש</div>
                 <div class="product-price">139 ש״ח</div>
-                <a href="Pages\product_page\templates\product_page.html" class="product-button">לצפייה במוצר</a>
+                <a href="../../product_page/templates/product_page.html" class="product-button">לצפייה במוצר</a>
             </div>
             <div class="product">
-                <img src="Pages\category_page\static\Images\head_imgs\zer3.jpg" class="product-image">
-                <div class="product-name">קשת פרחים מיובשים</div>
+                <img src="../static/Images/head_imgs/zer3.jpg" class="product-image" alt="head_bouquet_img">
+                <div class="product-name">קשת פרחים ורודים</div>
                 <div class="product-price">145 ש״ח</div>
-                <a href="Pages\product_page\templates\product_page.html" class="product-button">לצפייה במוצר</a>
+                <a href="../../product_page/templates/product_page.html" class="product-button">לצפייה במוצר</a>
             </div>
             <div class="product">
-                <img src="Pages\category_page\static\Images\head_imgs\zer4.jpg" class="product-image">
+                <img src="../static/Images/head_imgs/zer4.jpg" class="product-image" alt="head_bouquet_img">
                 <div class="product-name">זר לראש שיבולים</div>
                 <div class="product-price">135 ש״ח</div>
-                <a href="Pages\product_page\templates\product_page.html" class="product-button">לצפייה במוצר</a>
+                <a href="../../product_page/templates/product_page.html" class="product-button">לצפייה במוצר</a>
             </div>
 
         </div>
     </div>
 
 
-        <footer class="general-footer">
-            <div class="general-footer-container">
-                <ul>
-                    <li class="titles">עקבו אחרינו</li>
-                    <li><a href="https://github.com/my-github-profile"><i class="fab fa-facebook"></i>  פייסבוק</a></li>
-                    <li><a href="https://twitter.com/my-twitter-profile"><i class="fab fa-instagram"></i>     אינסטגרם</a></li>
-                </ul>
-                <ul>
-                    <li class="titles">צרו קשר</li>
-                    <li><i class="fas fa-phone"></i>  050-2533955</li>
-                    <li><i class="fas fa-envelope"></i><a href="mailto:office@talia.co.il" class="originalLink"> office@talia.co.il </a></li>
-                </ul>
-                <ul>
-                    <li class="titles">החנות</li>
-                    <li><i class="fas fa-map-marker-alt"></i>   שבזי 25,נווה צדק ת"א</li>
-                    <li><i class="fas fa-clock"></i>   ימים א'-ה': 09:00-19:00</li>
-                </ul>
-            </div>
-        </footer>
+    <footer class="general-footer">
+        <div class="general-footer-container">
+            <ul>
+                <li class="titles">עקבו אחרינו</li>
+                <li><a href="https://www.facebook.com/TALIAnevetzedek"><i class="fab fa-facebook"></i>  פייסבוק</a></li>
+                <li><a href="https://www.instagram.com/talia_flowers_nevetzedek/"><i class="fab fa-instagram"></i>     אינסטגרם</a></li>
+            </ul>
+            <ul>
+                <li class="titles">צרו קשר</li>
+                <li><i class="fas fa-phone"></i>  050-2533955</li>
+                <li><i class="fas fa-envelope"></i><a href="mailto:office@talia.co.il" class="originalLink"> office@talia.co.il </a></li>
+            </ul>
+            <ul>
+                <li class="titles">החנות</li>
+                <li><i class="fas fa-map-marker-alt"></i>   שבזי 25,נווה צדק ת"א</li>
+                <li><i class="fas fa-clock"></i>   ימים א'-ה': 09:00-19:00</li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>

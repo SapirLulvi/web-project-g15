@@ -1,6 +1,6 @@
-@import "/Components/Header/Static/CSS/header.css";
-@import "/Components/Footer/Static/CSS/footer.css";
-@import "/CSS/variables.css";
+@import "../../../../Components/Header/static/CSS/header.css";
+@import "../../../../Components/Footer/static/CSS/footer.css";
+@import "../../../../CSS/variables.css";
 
 *{
     font-family: var(--font-text);
@@ -10,7 +10,7 @@
     font-weight: normal;
     font-size: 33px;
     margin:0;
-    text-align: right;
+    text-align: center;
     padding-bottom: 15px;
 }
 
@@ -20,7 +20,7 @@
     margin: auto;
     padding-top: 130px;
     padding-bottom:162px;
-    text-align: right;
+    text-align: center;
 }
 
 .product-content{
@@ -50,18 +50,19 @@
 
 
 .container {
-    max-width: 1000px;
-    margin-right: auto;
-    margin-left: auto;
+    max-width: 100% !important;
+    margin-right: 0px!important;
+    margin-left: 0px!important;
     padding-right: 15px;
     padding-left:15px;
+    padding-bottom: 50px;
 }
 
 .img-box {
     width: 375px;
     height: 375px;
     overflow: hidden;
-    margin-right: 100px;
+    margin-right: 10px;
 }
 
 .product-photo {

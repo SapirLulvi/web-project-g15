@@ -1,6 +1,6 @@
-@import "/Components/Header/Static/CSS/header.css";
-@import "/Components/Footer/Static/CSS/footer.css";
-@import "/CSS/variables.css";
+@import "../../../../Components/Header/static/CSS/header.css";
+@import "../../../../Components/Footer/static/CSS/footer.css";
+@import "../../../../CSS/variables.css";
     *{
         font-family: var(--font-text);
     }
@@ -22,6 +22,8 @@
         padding-top:10px;
         padding-bottom:10px;
         font-size:18px;
+        max-width: 250px;
+
         }
 
         .workshop-details{
@@ -45,18 +47,19 @@
 
 
         .container {
-            max-width: 1000px;
-            margin-right: auto;
-            margin-left: auto;
+            max-width: 100%!important;
+            margin-right: 0px!important;
+            margin-left: 0px!important;
             padding-right: 15px;
             padding-left:15px;
+            padding-bottom: 50px;
         }
 
         .img-box {
-            width: 500px;
-            height: 500px;
+            width: 90%;
+            height: 90%;
             overflow: hidden;
-            margin-right: 100px;
+            text-align: center;
         }
 
         .workshop-details-photos {
@@ -69,3 +72,23 @@
             border: none;
             transform: scale(1.2);
         }
+
+    .button {
+        display: inline-block;
+        background: var(--color_background_buttons);
+        color: var(--color_text_buttons);
+        text-decoration: none;
+        padding: 6px 40px;
+        transition: 0.2s;
+        font-weight: bold;
+        border: 2px solid #000;
+        font-size:16px;
+        cursor: pointer;
+    }
+
+
+    .button:hover {
+        background: var(--color_text_buttons);
+        color: var(--color_background_buttons);
+
+    }

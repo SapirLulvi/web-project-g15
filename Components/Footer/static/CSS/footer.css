@@ -1,11 +1,11 @@
 
-@import "/CSS/variables.css";
+@import "../../../../CSS/variables.css";
+
 *{
   font-family: var(--font-text);
     color: var(--text-color);
     font-weight: bold;
 }
-
 
     .general-footer {
         text-align: center;
@@ -43,4 +43,21 @@
     }
     .titles{
         font-size: 20px;
+    }
+
+        @media only screen and (max-width: 600px) {
+            .titles{
+                font-size: 13px;
+            }
+            footer li{
+                list-style-type: none;
+                margin-top: 15px;
+                font-size: 10px;
+            }
+            footer a {
+                font-size: 10px;
+            }
+            .originalLink{
+                font-size: 10px;
+            }
     }

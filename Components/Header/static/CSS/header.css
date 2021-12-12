@@ -1,4 +1,4 @@
-@import "/CSS/variables.css";
+@import "../../../../CSS/variables.css";
     *{
         font-family: var(--font-text);
     }
@@ -42,8 +42,17 @@
         margin: 3px;
         padding-right: 10%;
     }
+    .top-line-right {
+        float: right;
+        margin: 10px;
+        padding-right: 10px;
+        transition: 0.2s;
+        font-size: 20px;
+        font-weight: bold;
+    }
 
-    .top-line-left:hover,.navline:hover {
+
+    .top-line-left:hover,.top-line-right:hover,.navline:hover {
         color: var(--color_hover);
     }
 
@@ -56,4 +65,23 @@
     .logo_img{
         height: 73px;
         width: 200px;
+    }
+
+    @media only screen and (max-width: 600px) {
+        *{
+            font-size: 13px;
+        }
+        .navline {
+        margin: 5px;
+        padding: 5px;
+        transition: 0.2s;
+        }
+        .top-line-left{
+            font-size: 13px;
+        }
+        .logo_img{
+            height: 50px;
+            width: 100px;
+        }
+
     }
