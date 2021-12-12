@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4f01a19-4c4a-4e46-9902-a05b6ef6f267" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/category_page/static/CSS/categories_page.css" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/category_page/static/CSS/categories_page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/category_page/static/CSS/category_page.css" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/category_page/static/CSS/category_page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/product_page/static/CSS/product_page.css" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/product_page/static/CSS/product_page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/workshop_page/static/CSS/workshop_details.css" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/workshop_page/static/CSS/workshop_details.css" afterDir="false" />
-    </list>
+    <list default="true" id="f4f01a19-4c4a-4e46-9902-a05b6ef6f267" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +43,7 @@
       <workItem from="1639306865070" duration="16536000" />
       <workItem from="1639327571732" duration="2258000" />
       <workItem from="1639330752378" duration="4666000" />
-      <workItem from="1639337265874" duration="1846000" />
+      <workItem from="1639337265874" duration="2071000" />
     </task>
     <servers />
   </component>
