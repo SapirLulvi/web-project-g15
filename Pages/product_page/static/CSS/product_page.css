@@ -75,3 +75,28 @@
     border: none;
     transform: scale(1.2);
 }
+
+@media only screen and (max-width: 600px) {
+    .product-title{
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .product-content {
+        font-size:11px;
+        margin-top:10px;
+    }
+    .product-price{
+        font-size:11px;
+        margin-top:5px;
+    }
+    .product-button{
+        font-size: 11px;
+    }
+    .product-photo{
+        height: 280px;
+        width: 300px;
+
+
+    }
+
+}

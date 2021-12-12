@@ -92,3 +92,33 @@
         color: var(--color_background_buttons);
 
     }
+
+    @media only screen and (max-width: 600px) {
+
+    .workshop-content {
+        font-size:11px;
+        margin-top:10px;
+    }
+    .workshop-price{
+        font-size:13px;
+        margin-top:5px;
+    }
+
+    .workshop-details-photos{
+        height: 200px;
+        width: 300px;
+    }
+    .remarks{
+        border: 1.5px solid rgba(0, 0, 0, 0.2);
+        padding: 20px 30px;
+        text-align:right;
+        padding-top:10px;
+        padding-bottom:30px;
+        font-size:11px;
+    }
+    .button{
+        font-size: 11px;
+    }
+
+ }
+

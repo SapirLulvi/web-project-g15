@@ -2,43 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4f01a19-4c4a-4e46-9902-a05b6ef6f267" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages/home_page/static/JS/home_page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages/user_page/templates/profile_page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages/user_page/templates/sign_in.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages/user_page/templates/sign_up.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/web-project-g15.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/web-project-g15.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/Footer/static/CSS/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Footer/static/CSS/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/Footer/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Footer/templates/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/Header/static/CSS/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Header/static/CSS/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/Header/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Header/templates/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/about_page/static/CSS/about_page.css" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/about_page/static/CSS/about_page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/about_page/templates/about_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/about_page/templates/about_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pages/category_page/static/CSS/categories_page.css" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/category_page/static/CSS/categories_page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/category_page/static/CSS/categoty_page.css" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/category_page/static/CSS/category_page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/category_page/static/Images/head_imgs/zer3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/category_page/static/Images/head_imgs/zer3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/category_page/templates/categories_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/category_page/templates/categories_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/category_page/templates/category_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/category_page/templates/category_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/home_page/static/CSS/home_page.css" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/home_page/static/CSS/home_page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/home_page/templates/home_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/home_page/templates/home_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/category_page/static/CSS/category_page.css" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/category_page/static/CSS/category_page.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pages/product_page/static/CSS/product_page.css" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/product_page/static/CSS/product_page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/product_page/templates/product_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/product_page/templates/product_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/user_profile/static/CSS/shopping_cart.css" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/user_page/static/CSS/shopping_cart.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/user_profile/static/CSS/sign_in_up.css" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/user_page/static/CSS/sign_in_up.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/user_profile/static/Images/shopping_cart1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/user_page/static/Images/shopping_cart1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/user_profile/static/Images/shopping_cart2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/user_page/static/Images/shopping_cart2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/user_profile/static/Images/shopping_cart3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/user_page/static/Images/shopping_cart3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/user_profile/static/JS/order_form_valid.js" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/user_page/static/JS/order_form_valid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/user_profile/static/JS/sign_in_up.js" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/user_page/static/JS/sign_in_up.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/user_profile/templates/shopping_cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/user_page/templates/shopping_cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/user_profile/templates/sign_in.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/user_profile/templates/sign_up.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/workshop_page/static/CSS/workshop.css" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/workshop_page/static/CSS/workshop.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pages/workshop_page/static/CSS/workshop_details.css" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/workshop_page/static/CSS/workshop_details.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/workshop_page/templates/workshop_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/workshop_page/templates/workshop_details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/workshop_page/templates/workshop_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/workshop_page/templates/workshop_page.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +48,8 @@
       <updated>1639306859945</updated>
       <workItem from="1639306865070" duration="16536000" />
       <workItem from="1639327571732" duration="2258000" />
-      <workItem from="1639330752378" duration="3635000" />
+      <workItem from="1639330752378" duration="4666000" />
+      <workItem from="1639337265874" duration="1846000" />
     </task>
     <servers />
   </component>
